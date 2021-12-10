@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        hikari:
+            user:
+                jdbc-url: jdbc:mysql://localhost:3308/user?serverTimezone=UTC&characterEncoding=UTF-8
+                username: user
+                password: user
+                driver-class-name: com.mysql.cj.jdbc.Driver
+            shop:
+                jdbc-url: jdbc:mysql://localhost:3307/shop?serverTimezone=UTC&characterEncoding=UTF-8
+                username: shop
+                password: shop
+                driver-class-name: com.mysql.cj.jdbc.Driver
